@@ -1,0 +1,3 @@
+rootProject.name = 'stasis-mod'
+include 'src/main/java'
+include 'src/main/resources'

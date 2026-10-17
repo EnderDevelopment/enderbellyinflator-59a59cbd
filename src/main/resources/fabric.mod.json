@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "stasis_mod",
+  "version": "${mod_version}",
+  "name": "Stasis Mod",
+  "description": "A mod that allows Endermen to be placed in a Stasis block.",
+  "authors": ["EnderDevelopment"],
+  "contact": {
+    "homepage": "https://enderdevelopment.com",
+    "sources": "https://github.com/EnderDevelopment/stasis-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/stasis_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.stasismod.StasisMod"
+    ]
+  },
+  "mixins": [
+    "stasis_mod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.21.1",
+    "fabric-api": "*",
+    "create": ">=0.6.0"
+  }
+}
